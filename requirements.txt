@@ -1,0 +1,32 @@
+# ASCII Art Generator Requirements
+
+# Core Python libraries and versions required for the project
+Pillow>=9.0.0  # For image processing
+
+# Uncomment and adjust the lines below to include additional libraries or options if needed
+# pytest  # For testing the application
+# pytest-cov  # For coverage reports
+
+# Example of specific library versions (optional)
+# docopt == 0.6.1
+
+# Example: Environment-specific dependencies
+# requests[security]>=2.8.1,==2.8.*; python_version<'3.9'
+
+# Example: Referring to other requirement files
+# -r additional-requirements.txt
+
+# Example: Using local or URL-based installations
+# ./path/to/local/distribution.whl
+# https://example.com/archives/library-package.whl
+# Additional libraries for enhanced functionality
+numpy>=1.21.0  # For numerical operations
+matplotlib>=3.4.0  # For plotting and visualization
+
+# Development and testing tools
+black  # For code formatting
+flake8  # For linting
+mypy  # For type checking
+
+# Documentation tools
+sphinx  # For generating documentation
